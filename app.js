@@ -27,11 +27,7 @@ app.get('/project', (req, res) => {
 
 //Errors
 app.use((req, res ,next) => {
-  res.status(404).render('err', {
-    err : 'err',
-    status : '404',
-    msg : 'This page does not seem to exist, please go home'
-  });
+  res.status(404).render('error')
 
 
 
