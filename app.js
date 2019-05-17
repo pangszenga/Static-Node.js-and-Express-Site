@@ -2,7 +2,8 @@
 const express = require('express');
 const pug = require('pug');
 const colors = require('colors');
-const { projects }  = require('./data.json');
+const bodyParser = require('body-parser');
+const { project }  = require('./data.json');
 const app = express();
 const port = 3000;
 
@@ -26,12 +27,17 @@ app.get('/project', (req, res) => {
 });
 
 //Errors
-app.use((req, res ,next) => {
-  res.status(404).render('error')
+// app.use((req, res ,next) => {
+//   res.status(404).render('error')
+//
+// })
 
-
-
+app.use(function (err, req, res, next) {
+  console.error(err.stack)
+  res.status(500).send('Something broke!');
+  res.status(404).send('This page does not exist!');
 })
+
 //Listener
 app.listen(port, console.log(`I am running on ${port}.`));
 // console.log(projects);
