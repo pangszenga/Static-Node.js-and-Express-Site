@@ -1,0 +1,60 @@
+{
+  "projects":
+  {
+    "0":
+    {
+      "project_name" : "Interactive Photo Gallery",
+      "description" : "Creating an Interactive Photo Gallery using plain vanilla Javascript",
+      "technologies" : "HTML, CSS and Js",
+      "live_link" : "",
+      "github_link" : "https://github.com/ppdevelopmentinc/Interactive-Photo-Gallery",
+      "image_urls" : ""
+    },
+    "1":
+    {
+      "project_name" : "Interactive Form",
+      "description" : "Interactive form with data validation using regex",
+      "technologies" : "HTML, CSS and Js",
+      "live_link" : "",
+      "github_link" : "https://github.com/ppdevelopmentinc/Interactive-form",
+      "image_urls" : ""
+    },
+    "2":
+    {
+      "project_name" : "OOP Game Show App",
+      "description" : "Game Show App using DOM oriented Js",
+      "technologies" : "HTML, CSS and Js",
+      "live_link" : "",
+      "github_link" : "https://github.com/ppdevelopmentinc/OOP-Game-Show-App",
+      "image_urls" : ""
+    },
+    "3":
+    {
+      "project_name" : "Mobile Responsive Page",
+      "description" : "Using a mobile first approach to create a static webpage",
+      "technologies" : "HTML and CSS",
+      "live_link" : "",
+      "github_link" : "https://github.com/ppdevelopmentinc/Mobile-responsive-page",
+      "image_urls" : ""
+    },
+    "4":
+    {
+      "project_name" : "Public API Request",
+      "description" : "Using a public API request to create a employee directory",
+      "technologies" : "HTML, CSS and Js",
+      "live_link" : "",
+      "github_link" : "https://github.com/ppdevelopmentinc/Public-API-request",
+      "image_urls" : ""
+    },
+    "5":
+    {
+      "project_name" : "Random Quote Generator",
+      "description" : "Program that displays a randomly selected quote",
+      "technologies" : "HTML, CSS and Js",
+      "live_link" : "",
+      "github_link" : "https://github.com/ppdevelopmentinc/Random-Quote-Generator",
+      "image_urls" : ""
+    }
+  }
+
+}
