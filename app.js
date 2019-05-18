@@ -14,26 +14,36 @@ app.use('/static', express.static('public'));
 
 
 //Routes
-app.get('/', (req, res) => {
+app.get('/', (req, res, next) => {
   res.render('index', { title : 'index'});
+  next();
 });
 
-app.get('/about', (req, res) => {
+app.get('/about', (req, res, next) => {
   res.render('about', { title : 'about'});
+  next();
 });
 
-app.get('/project', (req, res) => {
+app.get('/project', (req, res, next) => {
   res.render('project', { title : 'project'});
-
+  next();
 });
 
 //Errors
-//The below has the error stack
+// The below has the error stack
 app.use((req, res , next) => {
   const err = new Error('Page not found');
-  err.status = 404;
+  // err.status = 404;
+  console.log(err);
   next(err);
 });
+
+
+// app.use((err, req, res ,next) => {
+//   res.locals.error = err;
+//   res.render('error');
+//
+// });
 
 // app.use(( err, req, res ,next) => {
 //   res.locals.error = err;
@@ -41,12 +51,6 @@ app.use((req, res , next) => {
 //   res.render('error');
 // });
 
-// app.use(function (err, req, res, next) {
-//   console.error(err.stack)
-//   res.status(500).send('Something broke!');
-//   res.status(404).send('This page does not exist!');
-// })
 
 //Listener
 app.listen(port, console.log(`I am running on ${port}.`));
-// console.log(projects);
