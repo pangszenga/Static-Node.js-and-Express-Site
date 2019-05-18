@@ -24,19 +24,28 @@ app.get('/about', (req, res) => {
 
 app.get('/project', (req, res) => {
   res.render('project', { title : 'project'});
+
 });
 
 //Errors
-// app.use((req, res ,next) => {
-//   res.status(404).render('error')
-//
-// })
+//The below has the error stack
+app.use((req, res , next) => {
+  const err = new Error('Page not found');
+  err.status = 404;
+  next(err);
+});
 
-app.use(function (err, req, res, next) {
-  console.error(err.stack)
-  res.status(500).send('Something broke!');
-  res.status(404).send('This page does not exist!');
-})
+// app.use(( err, req, res ,next) => {
+//   res.locals.error = err;
+//   res.status(err.status);
+//   res.render('error');
+// });
+
+// app.use(function (err, req, res, next) {
+//   console.error(err.stack)
+//   res.status(500).send('Something broke!');
+//   res.status(404).send('This page does not exist!');
+// })
 
 //Listener
 app.listen(port, console.log(`I am running on ${port}.`));
