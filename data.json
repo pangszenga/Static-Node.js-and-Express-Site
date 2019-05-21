@@ -1,61 +1,59 @@
 {
-  "id":
-  [{
-    "0" :
-    {
+  "projects":
+    [{
+      "id" : "0",
       "project_name" : "Interactive Form",
       "description" : "Interactive form with data validation using regex",
       "technologies" : "HTML, CSS and Js",
       "live_link" : "https://ppdevelopmentinc.github.io/Interactive-form/",
       "github_link" : "https://github.com/ppdevelopmentinc/Interactive-form",
-      "image_urls" : ""
-
+      "image_urls" : "./static/img/0.png"
     },
-    "1":
     {
+      "id" : "1",
       "project_name" : "Interactive Photo Gallery",
       "description" : "Creating an Interactive Photo Gallery using plain vanilla Javascript",
       "technologies" : "HTML, CSS and Js",
       "live_link" : "https://ppdevelopmentinc.github.io/Interactive-Photo-Gallery/",
       "github_link" : "https://github.com/ppdevelopmentinc/Interactive-Photo-Gallery",
-      "image_urls" : ""
+      "image_urls" : "./static/img/1.png"
     },
-    "2":
     {
+      "id" : "2",
       "project_name" : "OOP Game Show App",
       "description" : "Game Show App using DOM oriented Js",
       "technologies" : "HTML, CSS and Js",
       "live_link" : "https://ppdevelopmentinc.github.io/OOP-Game-Show-App/",
       "github_link" : "https://github.com/ppdevelopmentinc/OOP-Game-Show-App",
-      "image_urls" : ""
+      "image_urls" : "./static/img/2.png"
     },
-    "3":
     {
+      "id" : "3",
       "project_name" : "Mobile Responsive Page",
-      "description" : "Using a mobile first approach to create a static webpage",
+      "description" : "Using a mobile first approach to create a ./static webpage",
       "technologies" : "HTML and CSS",
-      "live_link" : "",
+      "live_link" : "https://ppdevelopmentinc.github.io/Mobile-responsive-page/",
       "github_link" : "https://github.com/ppdevelopmentinc/Mobile-responsive-page",
-      "image_urls" : ""
+      "image_urls" : "./static/img/3.png"
     },
-    "4":
     {
+      "id" : "4",
       "project_name" : "Public API Request",
       "description" : "Using a public API request to create a employee directory",
       "technologies" : "HTML, CSS and Js",
-      "live_link" : "",
+      "live_link" : "https://ppdevelopmentinc.github.io/Public-API-request/",
       "github_link" : "https://github.com/ppdevelopmentinc/Public-API-request",
-      "image_urls" : ""
+      "image_urls" : "./static/img/4.png"
     },
-    "5":
     {
+      "id" : "5",
       "project_name" : "Random Quote Generator",
       "description" : "Program that displays a randomly selected quote",
       "technologies" : "HTML, CSS and Js",
       "live_link" : "https://ppdevelopmentinc.github.io/Random-Quote-Generator/",
       "github_link" : "https://github.com/ppdevelopmentinc/Random-Quote-Generator",
-      "image_urls" : ""
-    }
-  }]
+      "image_urls" : "./static/img/5.png"
+    }]
+
 
 }

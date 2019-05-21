@@ -1,30 +1,27 @@
 //Dependencies
 const express = require('express');
-const bodyParser = require('body-parser');
 const router = express.Router();
 
-//Set up
-app.use(bodyParser.json());
+const projectsRaw = require('../data.json');
+const json = JSON.parse(JSON.stringify(projectsRaw));
+
 
 //Routes for projects
-app.post('/', req, res => {
-  console.log(request.body);      // your JSON
-  // response.send(request.body);    // echo the result back
+router.get('/', (req, res, next) => {
+  res.render('../views/index', { json : json });
 });
 
 
-// router.get('/about', (req, res)=>{
-//   res.render('about');
-// });
-//
-//
-// router.get('/projects/:id', (req, res)=>{
-//   if(isNaN(req.params.id) === true || req.params.id >= jsonData.projects.length){
-//     res.redirect('/');
-//   }
-//   res.render('project', {
-//     projects : jsonData.projects[req.params.id]
-//   });
-// });
-//
-// module.exports = router;
+router.get('/home', (req, res, next) => {
+  res.render('about', { title : 'about'});
+  next();
+});
+
+router.get('/about', (req, res, next) => {
+  res.render('about', { title : 'about'});
+  next();
+});
+
+
+
+module.exports = router;
