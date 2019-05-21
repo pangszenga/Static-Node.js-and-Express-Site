@@ -9,7 +9,6 @@ html(class="no-js" lang="en" dir="ltr")
     link(rel='stylesheet', href='/static/css/foundation.css')
     link(rel='stylesheet', href='/static/css/style.css')
   body
-
-      h1= title
-
-      p= msg
+    h1= error.message
+    h2= error.status
+    pre= error.stack

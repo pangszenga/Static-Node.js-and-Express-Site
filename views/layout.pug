@@ -5,7 +5,7 @@ html(class="no-js" lang="en" dir="ltr")
     meta(http-equiv='x-ua-compatible', content='ie=edge')
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
     title Priscilla Pang's Portfolio
-    link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
+    link(href='https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap', rel='stylesheet')
     link(rel='stylesheet', href='/static/css/foundation.css')
     link(rel='stylesheet', href='/static/css/style.css')
   body
@@ -14,7 +14,7 @@ html(class="no-js" lang="en" dir="ltr")
         block sidebar
           br
           .cell.shrink
-            img.thumbnail(src='https://placehold.it/550x350')
+            img.thumbnail.clip-circle(src='/static/img/p.png')
           .cell.auto
 
             h5 Priscilla Pang
@@ -22,7 +22,6 @@ html(class="no-js" lang="en" dir="ltr")
             p.text-light
               | Welcome to my Portfolio
 
-            //- Add about page route to the href below.
             a(href='/about') Learn More →
 
     .off-canvas-content(data-off-canvas-content='')

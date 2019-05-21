@@ -21,7 +21,7 @@
      *    IE on Windows Phone and in iOS.
      */
 html {
-  font-family: sans-serif;
+  font-family: 'Didact Gothic', sans-serif;
   /* 1 */
   line-height: 1.15;
   /* 2 */
@@ -447,7 +447,7 @@ body {
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   line-height: 1.5;
-  color: #0a0a0a;
+  color: #6f6a78;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
@@ -4988,9 +4988,9 @@ table.hover:not(.unstriped) tr:nth-of-type(even):hover {
   display: inline-block;
   max-width: 100%;
   margin-bottom: 1rem;
-  border: solid 4px #fefefe;
+  border: solid 4px #7C7587;
   border-radius: 0;
-  box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
+  box-shadow: 0;
   line-height: 0; }
 
 a.thumbnail {
@@ -5001,8 +5001,9 @@ a.thumbnail {
     box-shadow: none; }
 
 .title-bar {
+  font-family: 'Didact Gothic', sans-serif;
   padding: 0.5rem;
-  background: #0a0a0a;
+  background: #7C7587;
   color: #fefefe;
   display: -ms-flexbox;
   display: flex;

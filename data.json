@@ -1,22 +1,23 @@
 {
-  "projects":
-  {
-    "0":
-    {
-      "project_name" : "Interactive Photo Gallery",
-      "description" : "Creating an Interactive Photo Gallery using plain vanilla Javascript",
-      "technologies" : "HTML, CSS and Js",
-      "live_link" : "",
-      "github_link" : "https://github.com/ppdevelopmentinc/Interactive-Photo-Gallery",
-      "image_urls" : ""
-    },
-    "1":
+  "id":
+  [{
+    "0" :
     {
       "project_name" : "Interactive Form",
       "description" : "Interactive form with data validation using regex",
       "technologies" : "HTML, CSS and Js",
-      "live_link" : "",
+      "live_link" : "https://ppdevelopmentinc.github.io/Interactive-form/",
       "github_link" : "https://github.com/ppdevelopmentinc/Interactive-form",
+      "image_urls" : ""
+
+    },
+    "1":
+    {
+      "project_name" : "Interactive Photo Gallery",
+      "description" : "Creating an Interactive Photo Gallery using plain vanilla Javascript",
+      "technologies" : "HTML, CSS and Js",
+      "live_link" : "https://ppdevelopmentinc.github.io/Interactive-Photo-Gallery/",
+      "github_link" : "https://github.com/ppdevelopmentinc/Interactive-Photo-Gallery",
       "image_urls" : ""
     },
     "2":
@@ -24,7 +25,7 @@
       "project_name" : "OOP Game Show App",
       "description" : "Game Show App using DOM oriented Js",
       "technologies" : "HTML, CSS and Js",
-      "live_link" : "",
+      "live_link" : "https://ppdevelopmentinc.github.io/OOP-Game-Show-App/",
       "github_link" : "https://github.com/ppdevelopmentinc/OOP-Game-Show-App",
       "image_urls" : ""
     },
@@ -51,10 +52,10 @@
       "project_name" : "Random Quote Generator",
       "description" : "Program that displays a randomly selected quote",
       "technologies" : "HTML, CSS and Js",
-      "live_link" : "",
+      "live_link" : "https://ppdevelopmentinc.github.io/Random-Quote-Generator/",
       "github_link" : "https://github.com/ppdevelopmentinc/Random-Quote-Generator",
       "image_urls" : ""
     }
-  }
+  }]
 
 }

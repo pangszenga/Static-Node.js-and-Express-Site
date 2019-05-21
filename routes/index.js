@@ -1,8 +1,30 @@
-// Create folder to hold routes files in roots
-// Create file in this dir called index.js
-// Require(‘express’)
-// express.Router(); add middleware and routes to it
-// Cut and Paste all routes into index.js file
-// Change all app.use/get/post to router.use/get/post
-// Const routes = require(‘./routes/index’);
-// app.use(‘routes’);
+//Dependencies
+const express = require('express');
+const bodyParser = require('body-parser');
+const router = express.Router();
+
+//Set up
+app.use(bodyParser.json());
+
+//Routes for projects
+app.post('/', req, res => {
+  console.log(request.body);      // your JSON
+  // response.send(request.body);    // echo the result back
+});
+
+
+// router.get('/about', (req, res)=>{
+//   res.render('about');
+// });
+//
+//
+// router.get('/projects/:id', (req, res)=>{
+//   if(isNaN(req.params.id) === true || req.params.id >= jsonData.projects.length){
+//     res.redirect('/');
+//   }
+//   res.render('project', {
+//     projects : jsonData.projects[req.params.id]
+//   });
+// });
+//
+// module.exports = router;
