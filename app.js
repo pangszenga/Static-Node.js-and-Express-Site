@@ -7,7 +7,7 @@ const projects = require('./data.json');
 const app = express();
 const port = 3000;
 const routes = require('./routes/index');
-const proj = require('./routes/projects');
+
 
 
 
@@ -17,20 +17,20 @@ app.set("views", "./views");
 app.use('/static', express.static('public'));
 app.use(bodyParser.json());
 app.use(routes);
-app.use(proj);
 
 
 
 //Errors
-app.use((req, res , next) => {
-  const err =  new Error('Oops, you seem to be lost');
-  res.locals.error = err;
+app.use((req, res, next) => {
+  const err = new Error('Not Found');
+  err.status = 404;
+  next(err);
+});
 
+app.use((err, req, res, next) => {
+  res.locals.error = err;
   res.status(err.status || 500);
   res.render('error');
-
-
-  console.log(res.status);
   next(err);
 });
 

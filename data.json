@@ -3,56 +3,56 @@
     [{
       "id" : "0",
       "project_name" : "Interactive Form",
-      "description" : "Interactive form with data validation using regex",
-      "technologies" : "HTML, CSS and Js",
+      "description" : "This project involved using regex to create an interactive form, that changes depending on what you select. Now I should stop talking, so you can try it for yourself!",
+      "technologies" : ["HTML", "CSS", "Js"],
       "live_link" : "https://ppdevelopmentinc.github.io/Interactive-form/",
       "github_link" : "https://github.com/ppdevelopmentinc/Interactive-form",
-      "image_urls" : "./static/img/0.png"
+      "image_urls" : "/static/img/0.png"
     },
     {
       "id" : "1",
       "project_name" : "Interactive Photo Gallery",
-      "description" : "Creating an Interactive Photo Gallery using plain vanilla Javascript",
-      "technologies" : "HTML, CSS and Js",
+      "description" : "This project, although beautiful, is created simply with plain javascript. The gallery is interactive to keywords relating to the photos. Go on, try it out!",
+      "technologies" : ["HTML", "CSS", "Js", "JQuery"],
       "live_link" : "https://ppdevelopmentinc.github.io/Interactive-Photo-Gallery/",
       "github_link" : "https://github.com/ppdevelopmentinc/Interactive-Photo-Gallery",
-      "image_urls" : "./static/img/1.png"
+      "image_urls" : "/static/img/1.png"
     },
     {
       "id" : "2",
       "project_name" : "OOP Game Show App",
-      "description" : "Game Show App using DOM oriented Js",
-      "technologies" : "HTML, CSS and Js",
+      "description" : "This project is object-oriented program, using constructors and methods. Please demo this to see for yourself! ",
+      "technologies" : ["HTML", "CSS", "Js", "JQuery"],
       "live_link" : "https://ppdevelopmentinc.github.io/OOP-Game-Show-App/",
       "github_link" : "https://github.com/ppdevelopmentinc/OOP-Game-Show-App",
-      "image_urls" : "./static/img/2.png"
+      "image_urls" : "/static/img/2.png"
     },
     {
       "id" : "3",
       "project_name" : "Mobile Responsive Page",
-      "description" : "Using a mobile first approach to create a ./static webpage",
-      "technologies" : "HTML and CSS",
+      "description" : "We cannot forget the basics. To demonstrate my skills in FEWD, the project is mobile responsive. I would like to highlight, I used CSS to create a beautiful rainbow backgrounds. One of my earlier work, but still a fine piece of art!",
+      "technologies" : ["HTML", "CSS"],
       "live_link" : "https://ppdevelopmentinc.github.io/Mobile-responsive-page/",
       "github_link" : "https://github.com/ppdevelopmentinc/Mobile-responsive-page",
-      "image_urls" : "./static/img/3.png"
+      "image_urls" : "/static/img/3.png"
     },
     {
       "id" : "4",
       "project_name" : "Public API Request",
-      "description" : "Using a public API request to create a employee directory",
-      "technologies" : "HTML, CSS and Js",
+      "description" : "This project pulls data through a public API to create an employee directory, complete with a modal that allows you to flick back and forth the directory!",
+      "technologies" : ["HTML", "CSS", "Js"],
       "live_link" : "https://ppdevelopmentinc.github.io/Public-API-request/",
       "github_link" : "https://github.com/ppdevelopmentinc/Public-API-request",
-      "image_urls" : "./static/img/4.png"
+      "image_urls" : "/static/img/4.png"
     },
     {
       "id" : "5",
       "project_name" : "Random Quote Generator",
-      "description" : "Program that displays a randomly selected quote",
-      "technologies" : "HTML, CSS and Js",
+      "description" : "This program randomly appends quotes to the DOM, as well selecting the appropriate color to match the type of quote. And they say, in nature, light create color. n the picture, color creates the light.",
+      "technologies" : ["HTML", "CSS", "Js"],
       "live_link" : "https://ppdevelopmentinc.github.io/Random-Quote-Generator/",
       "github_link" : "https://github.com/ppdevelopmentinc/Random-Quote-Generator",
-      "image_urls" : "./static/img/5.png"
+      "image_urls" : "/static/img/5.png"
     }]
 
 
